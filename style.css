@@ -31,12 +31,17 @@ body a{
     font-size: 22px;
   font-color: #fff;
 }
+.section1 a{
+  text-decoration: none;
+  color: #fff;
+}
 .div2{
   font-weight: 400;
 }
 .logo{
   text-decoration: none;
   font-size: 35px;
+  color: #fff;
 }
 .section1 li{
     list-style: none;
