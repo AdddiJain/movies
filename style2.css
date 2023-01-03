@@ -268,3 +268,31 @@
     display: none;
   }
 }
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #252525;
+  padding: 4px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+footer a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+footer a:visited {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.col-1 {
+  padding-top: 10px;
+  font-size: 35px;
+}
+
+.col-2 {
+  font-size: 15px;
+}
+/* .col-3 {
+  padding-bottom: 20px;
+  font-size: 18px;
+} */
