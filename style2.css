@@ -1,4 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+.section1{
+  height: 60px;
+}
+.section1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252525;
+    width: 100%;
+    position: fixed;
+    padding-left: 40px;
+    padding-right: 60px;
+    z-index: 1;
+    font-size: 22px;
+}
+.section1 a{
+  text-decoration: none;
+  color: #fff;
+}
+.logo{
+  text-decoration: none;
+  font-size: 35px;
+}
+.navbar form input{
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 6px;
+}
+@media (max-width:450px) and (min-width:100px){
+  .logo{
+    font-size: 25px;
+  }
+  .navbar form input{
+    padding: 4px;
+  }
+}
+
 .player{
   min-height: 100vh;
   background: #E3F2FD;
